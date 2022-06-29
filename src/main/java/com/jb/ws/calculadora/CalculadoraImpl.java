@@ -23,6 +23,7 @@ public class CalculadoraImpl implements ICalculadora {
 			break;
 		default:
 			System.out.println("Opcion Invalida");
+			resultado = -999999999.9;
 			break;
 		}
 		
